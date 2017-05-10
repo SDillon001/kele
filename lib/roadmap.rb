@@ -13,6 +13,6 @@ module Roadmap
   private
 
   def base_url(endpoint)
-    return "https://www.bloc.io/api/v1/#{endpoint}"
+    "https://www.bloc.io/api/v1/#{endpoint}"
   end
 end
